@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+}
+
+.hero-wrap {
+    background-image: url('portflio.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.wrap {
+    height: 100%;
+    width: 100%;
+    background-color: #111418 !important;
+    opacity: 0.7;
+}
+li {
+    list-style: none;
+}
+.navbar {
+    height: 66px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
+.logo {
+    height: 70px;
+    width: 100px;
+}
+.nav-btn {
+    display: flex;
+    align-items: center;
+}
+.social-icon {
+    /* background-color: beige; */
+    height: 66px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home {
+    color: azure;
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.home:hover {
+    color:#20c997;
+}
+img {
+    background-color: white;
+}
+.icon-size {
+    width: 20px;
+    height: 20px;
+    background-color: azure;
+    width: 30px;
+    height: 30px;
+}
+.icon-size:hover {
+    background-color: azure;
+}
+.logo-img {
+    width: 100%;
+    height: 100%;
+}
+h1,h2 {
+    color: azure;
+    text-align: center;
+}
+h1 {
+    margin-top: 2%;
+    font-size: 4em;
+}
+.hire-btn-container {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.hire-btn {
+    padding: 15px 15px;
+    border-radius: 30px;
+    background-color: #111418 ;
+    color: #20c997;
+    border: 1px solid #20c997;
+    font-size: 24px;
+}
+.hire-btn:hover {
+    cursor: pointer;
+    background-color:#20c997;
+    color: azure;
+}
+.about-section {
+    height: 100vh;
+    width: 100%;
+    background-color: #212529;
+}
+.underline {
+    display: block;
+    height: 1px;
+    background-color:#20c997;
+    border: 1px solid #20c997;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.know_me_more {
+    width: 100%;
+    height: 400px;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.para_know_me_more {
+    width: 50%;
+    height: 300px;
+    background-color: #212529;
+    /* margin-left:5%; */
+}
+.details_know_me_more {
+    width: 30%;
+    height: 300px;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    /* margin-left:10%; */
+    /* margin-right: 5%; */
+}
+.extra_details {
+    border-bottom: 1px solid gray;
+    height: 50px;
+    line-height: 50px;
+}
+.download-cv-btn {
+    margin-top: 15px;
+    width: 60%;
+    height: 50px;
+    background-color: #20c997;
+    color: azure;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: larger;
+}
+.auto-type {
+    color: #08f3ad;
+}
+.resume{
+    background-color: #343a40;
+    /* height: 100vh; */
+    height: 150vh;
+}
+.resume-cards {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: blue;
+    height: 60%;
+    display: flex;
+}
+.my-skills {
+    width: 80%;
+    background-color: green;
+    height: 20%;
+    margin: 0% 10% 0% 10%;
+}
+.education {
+    height: auto;
+    width: 50%;
+    background-color: #343a40;
+    border-radius: 2px;
+}
+.experience {
+    height: auto;
+    width: 50%;
+    background-color:#343a40;
+    border-radius: 2px;
+}
+h3 {
+    font-weight: bolder;
+    font-size: xx-large;
+    color: azure;
+}
+.education-card {
+    padding: 3%;
+    background-color: #111418;
+    /* margin-right: 2.5%; */
+    height: 150px;
+    width: 90%;
+    margin-top: 25px;
+}
+.experience-card {
+    background-color: #111418;
+    padding: 3%;
+    margin-right: 2.5%;
+    height: 150px;
+    width: 90%;
+    margin-top: 25px;
+}
+.date {
+    /* background-color: red; */
+    width:17%;
+    height:20%;
+    border-radius: 4px;
+    color: azure;
+}
+h4 {
+    color: azure;
+}
+h5{
+    color: #20c997;
+}
+.card-description{
+    color: rgba(255, 255, 255, .5) !important;
+}
+/* .address {
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+} */
+.form {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    padding: 3%;
+}
+.contact-me {
+    margin: 0% 5% 0% 5%;
+    display: flex;
+    /* width: 100%; */
+    height: 70%;
+}
+.input-name {
+    width: 47%;
+    height: 40px;
+    margin-bottom: 15px;
+    /* margin-left: 2%; */
+}
+.input-email {
+    width: 48%;
+    height: 40px;
+    margin-left: 3%;
+}
+.input-issue {
+    width: 100%;
+    height: 120px;
+}
+input {
+    background-color: #343a40;
+    border-radius: 3px;
+    border-color: #343a40;
+}
